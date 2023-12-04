@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848935943447",
+    "project_id": "pruebainventario-165ef",
+    "storage_bucket": "pruebainventario-165ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848935943447:android:da5ef4b0b5070242308b52",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1U2qPPIDHpcBbh-dV1Ny2TPpKsx0dtCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
