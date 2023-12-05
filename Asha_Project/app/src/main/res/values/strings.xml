@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Asha_inventario</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesion</string>
+
+    <string name="menu_home">Menu Principal</string>
+    <string name="menu_crear_productos">Crear Productos</string>
+    <string name="menu_actualizar_productos">Actualizar Productos</string>
+    <string name="menu_eliminar_productos">Eliminar Productos</string>
+    <string name="menu_ver_productos">Ver Productos</string>
+
+    <string name="menu_busqueda_productos">Busqueda Productos</string>
+    <string name="menu_lector_codigoqr_barras">Lector Codigo QR/Barras</string>
+
+    <string name="menu_configuracion">Configuracion</string>
+    <string name="menu_acerca_de">Acerca de</string>
+
+</resources>

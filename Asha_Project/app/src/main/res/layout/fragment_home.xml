@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="#E5F9FC">
+
+
+    <ImageButton
+        android:id="@+id/btn_crearproducto"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/icono_crearproducto"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_actualizarproducto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/btn_actualizarproducto"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/icono_actualizarproducto"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_crearproducto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_eliminarproducto"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/icono_eliminarproducto"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_verproductos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crearproducto" />
+
+    <ImageButton
+        android:id="@+id/btn_verproductos"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/icono_verproductos"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_eliminarproducto"
+        app:layout_constraintTop_toBottomOf="@+id/btn_actualizarproducto" />
+
+    <ImageButton
+        android:id="@+id/btn_categorias"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/icono_categorias"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_busqueda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_eliminarproducto" />
+
+    <ImageButton
+        android:id="@+id/btn_configuracion"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/icono_configuracion"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_lectorcodigobarras"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_categorias" />
+
+    <ImageButton
+        android:id="@+id/btn_busqueda"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/icono_busqueda"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_categorias"
+        app:layout_constraintTop_toBottomOf="@+id/btn_verproductos" />
+
+    <ImageButton
+        android:id="@+id/btn_lectorcodigobarras"
+        android:layout_width="147dp"
+        android:layout_height="147dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/icono_lectorcodigobarras"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toEndOf="@+id/btn_configuracion"
+        app:layout_constraintTop_toBottomOf="@+id/btn_busqueda" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
